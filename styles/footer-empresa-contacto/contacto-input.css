@@ -1,0 +1,25 @@
+.contacto__input {
+    padding: 0.5rem;
+    border: 1px solid var(--background-color-fucsia);
+    margin-top: 1rem;
+    height: 1.5rem;
+    width: 80vw;
+    font-size: 1rem;
+    color: var(--font-color-black);
+}
+
+.contacto__input:hover{
+    box-shadow: none;
+}
+
+.contacto__input:focus {
+    outline: none;
+    border-bottom: 3px solid var(--background-color-fucsia);
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .contacto__input {
+        width: 30vw;
+    }
+}

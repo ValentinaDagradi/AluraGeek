@@ -1,0 +1,32 @@
+:root {
+    --background-color-white: #fff;
+    --background-color-fucsia: #EA3281;
+    --background-color-azul: #0C71B6;
+    --background-color-amarillo: #FFCC0E;
+    --background-color-lila: #ECCCFE;
+
+    --font-color-white: #fff;
+    --font-color-black: #000;
+    --font-color-fucsia: #EA3281;
+    --font-color-azul: #0C71B6;
+    --font-color-celeste: #2ECDC8;
+    --font-color-amarillo: #FFCC0E;
+
+    --boton-white: #fff;
+    --boton-fucsia: #EA3281;
+    --boton-fucsia-activo: #e4156f;
+    --boton-azul: #0C71B6;
+    --boton-azul-activo: #075c95;
+
+    --font-raleway: "Raleway", sans-serif;
+    --font-tilt-neon: "Tilt Neon", sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-raleway);
+}
+
+main {
+    background-color: var(--background-color-lila);
+}

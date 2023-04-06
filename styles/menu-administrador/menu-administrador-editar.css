@@ -1,0 +1,10 @@
+.menu-administrador__editar{
+    list-style: none;
+    text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-administrador__editar:hover{
+    text-shadow: none;
+}

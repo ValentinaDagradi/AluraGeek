@@ -1,0 +1,14 @@
+.formulario__boton {
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: var(--background-color-amarillo);
+    border: none;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+}
+
+.formulario__boton:hover {
+    box-shadow: none;
+}

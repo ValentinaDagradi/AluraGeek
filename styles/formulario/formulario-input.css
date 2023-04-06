@@ -1,0 +1,6 @@
+.formulario__input {
+    padding: 1rem;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid var(--background-color-fucsia);
+}

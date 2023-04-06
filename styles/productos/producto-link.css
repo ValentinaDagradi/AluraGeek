@@ -1,0 +1,5 @@
+.producto__link {
+    text-decoration: none;
+    color: var(--font-color-white);
+    display: flex;
+}

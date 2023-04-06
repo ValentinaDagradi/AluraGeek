@@ -1,0 +1,16 @@
+.contacto__boton {
+    background-color: var(--boton-azul);
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    width: 6rem;
+    padding: 0.5rem;
+    -webkit-box-shadow: 0.5px 0.5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0.5px 0.5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 0.5px 0.5px 0px 0px rgba(0,0,0,1);
+}
+    
+.contacto__boton:hover {
+    background-color: var(--boton-azul-activo);
+    box-shadow: none;
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px){
+    .vista-producto__imagen {
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .vista-producto__imagen{
+        width: 25rem;
+    }
+}

@@ -1,0 +1,10 @@
+.footer-empresa__contacto {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-empresa__contacto{
+        margin-top: 0;
+    }
+}

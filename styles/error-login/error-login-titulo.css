@@ -1,0 +1,12 @@
+.error-login__titulo {
+    font-size: 3rem;
+    color: var(--font-color-fucsia);
+    text-shadow: 2px 2px 0px rgba(255,204,14,1);
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .error-login__titulo {
+        font-size: 4rem;
+    }
+}

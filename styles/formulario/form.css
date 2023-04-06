@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background-color: var(--background-color-white);
+    border-radius: 50px;
+    padding: 2rem;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+}
+
+@media screen and (min-width: 1024px) {
+    .form{
+        width: 60%;
+    }
+}

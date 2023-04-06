@@ -1,0 +1,12 @@
+.formulario__label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .formulario__label{
+        align-items: center;
+    }
+}

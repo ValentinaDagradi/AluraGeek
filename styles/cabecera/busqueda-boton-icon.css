@@ -1,0 +1,24 @@
+.busqueda__boton__icon{
+    color: var(--boton-white);
+    text-shadow: 0.5px 0.5px 0px rgba(0,0,0,1)
+}
+
+.busqueda__boton__icon:hover{
+    text-shadow: none;
+}
+
+.busqueda__boton__icon__mobile{
+    color: var(--boton-fucsia);
+    text-shadow: 0.5px 0.5px 0px rgba(0,0,0,1);
+}
+
+.busqueda__boton__icon__mobile:hover {
+    color: var(--boton-fucsia-activo);
+    text-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .busqueda__boton__icon {
+        color: var(--boton-fucsia);
+    }
+}

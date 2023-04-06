@@ -1,0 +1,20 @@
+.vista-producto__informacion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .vista-producto__informacion{
+        margin-left: 4rem;
+        margin-top: 1rem;
+        align-items: self-start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .vista-producto__informacion{
+        margin-top: 3rem;
+    }
+}

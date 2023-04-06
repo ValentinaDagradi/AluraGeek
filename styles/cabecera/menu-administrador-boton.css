@@ -1,0 +1,24 @@
+.cabecera__menu-administrador__boton{
+    width: 8rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid var(--boton-fucsia);
+    color: var(--font-color-fucsia);
+    font-weight: 400;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    margin-right: 1rem;
+}
+
+.cabecera__menu-administrador__boton:hover {
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera__menu-administrador__boton  {
+        width: 10rem;
+        margin-right: 0;
+        margin-left: 2rem;
+    }
+}

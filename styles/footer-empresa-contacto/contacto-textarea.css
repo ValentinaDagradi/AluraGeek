@@ -1,0 +1,26 @@
+.contacto__textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--background-color-fucsia);
+    border-radius: 5px;
+    margin-top: 1rem;
+    height: 5rem;
+    width: 80vw;
+    font-size: 1rem;
+    color: var(--font-color-black);
+}
+
+.contacto__textarea:hover{
+    box-shadow: none;
+}
+
+.contacto__textarea:focus {
+    outline: none;
+    border-bottom: 3px solid var(--background-color-fucsia);
+    box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+    .contacto__textarea {
+        width: 30vw;
+    }
+}

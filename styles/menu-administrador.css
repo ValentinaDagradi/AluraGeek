@@ -1,0 +1,18 @@
+.menu-administrador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-administrador {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px ) {
+    .menu-administrador{
+        padding: 2rem 5rem 2rem 5rem;
+    }
+}

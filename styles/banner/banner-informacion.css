@@ -1,0 +1,7 @@
+.banner__informacion {
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    padding-left: 2rem;
+    color: var(--font-color-white);
+}

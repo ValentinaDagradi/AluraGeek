@@ -1,0 +1,13 @@
+.productos__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+    .productos__container{
+        margin-bottom: 4rem;
+    }
+}

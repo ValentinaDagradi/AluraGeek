@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek - Home</title>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/79ab2276fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/cabecera.css">
@@ -19,12 +19,13 @@
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton.css">
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton-icon.css">
     <link rel="stylesheet" href="../styles/cabecera/cabecera-login-boton.css">
-    <link rel="stylesheet" href="../styles/banner/banner-imagen.css">
-    <link rel="stylesheet" href="../styles/banner/banner-informacion.css">
-    <link rel="stylesheet" href="../styles/banner/banner-titulo.css">
-    <link rel="stylesheet" href="../styles/banner/banner-descripcion.css">
-    <link rel="stylesheet" href="../styles/banner/banner-link.css">
-    <link rel="stylesheet" href="../styles/banner/banner-boton.css">
+    <link rel="stylesheet" href="../styles/vista-producto.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-container.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-imagen.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-informacion.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-titulo.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-precio.css">
+    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-descripcion.css">
     <link rel="stylesheet" href="../styles/productos.css">
     <link rel="stylesheet" href="../styles/productos/productos-titulo.css">
     <link rel="stylesheet" href="../styles/productos/productos-container.css">
@@ -36,9 +37,6 @@
     <link rel="stylesheet" href="../styles/resultado.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-titulo.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-container.css">
-    <link rel="stylesheet" href="../styles/ver-todo/ver-todo.css">
-    <link rel="stylesheet" href="../styles/ver-todo/ver-todo-link.css">
-    <link rel="stylesheet" href="../styles/ver-todo/ver-todo-boton.css">
     <link rel="stylesheet" href="../styles/footer-empresa.css">
     <link rel="stylesheet" href="../styles/footer-empresa-contacto/footer-empresa-contacto.css">
     <link rel="stylesheet" href="../styles/footer-empresa-contacto/contacto-input.css">
@@ -62,25 +60,12 @@
             <a href="./login.html" class="cabecera__login"><button class="cabecera__login__boton boton">Login</button></a>
         </div>
     </header>
-    <main class="main">
-        <section class="banner">
-            <div class="banner__imagen"></div>
-            <div class="banner__informacion">
-                <h2 class="banner__titulo">Febrero promocional</h2>
-                <p class="banner__descripcion">Productos seleccionados con 33% de descuento</p>
-                <a href="#consolas" class="banner__link"><botton class="banner__boton">Ver consolas</botton></a>
-            </div>
+    <main>
+        <section class="vista-producto">
         </section>
         <section class="productos">
-            <h2 class="productos__titulo">Star Wars</h2>
-            <div class="productos__container star-wars" data-starwars></div>
-            <h2 class="productos__titulo" id="consolas">Consolas</h2>
-            <div class="productos__container consolas" data-consolas></div>
-            <h2 class="productos__titulo">Diversos</h2>
-            <div class="productos__container diversos" data-diversos></div>
-            <div class="ver-todo">
-                <a href="todos-los-productos.html" class="ver-todo__link"><button class="ver-todo__boton">Ver todo</button></a>
-            </div>
+            <h2 class="productos__titulo similares">Productos similares</h2>
+            <div class="productos__container"></div>
         </section>
     </main>
     <footer class="footer">
@@ -106,6 +91,6 @@
     </footer>
     <script src="../JavaScript/barra-busqueda.js"></script>
     <script type="module" src="../JavaScript/controllers/mostrar-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/mostrar-producto.js"></script>
+    <script type="module" src="../JavaScript/controllers/ver-producto.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.producto__boton{
+    background-color: var(--boton-fucsia);
+    padding: 0.5rem;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+}
+
+.producto__boton:hover{
+    box-shadow: none;
+    background-color: var(--boton-fucsia-activo) ;
+}

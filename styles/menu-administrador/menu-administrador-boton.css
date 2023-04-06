@@ -1,0 +1,15 @@
+.menu-administrador__boton {
+    background-color: var(--boton-azul);
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,1);
+}
+
+.menu-administrador__boton:hover {
+    background-color: var(--boton-azul-activo);
+    box-shadow: none;
+}

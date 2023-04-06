@@ -1,0 +1,12 @@
+.banner__boton{
+    background-color: var(--background-color-amarillo);
+    padding: 1rem;
+    margin-top: 2rem;
+    -webkit-box-shadow: 1px 1px 0px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 1px 1px 0px 0px rgb(245, 241, 241);
+    box-shadow: 1px 1px 0px 0px rgb(246, 244, 244);
+}
+
+.banner__boton:hover {
+    box-shadow: none;
+}

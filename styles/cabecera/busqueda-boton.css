@@ -1,0 +1,11 @@
+.busqueda__boton, .busqueda__boton__mobile{
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .busqueda__boton__mobile {
+        display: none;
+    }
+}
