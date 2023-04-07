@@ -1,7 +1,7 @@
 {
   "producto": [
     {
-      "imagen": "../imagenes/taza-storm-trooper.png",
+      "imagen": "imagenes/taza-storm-trooper.png",
       "nombre": "Taza  de Storm Trooper",
       "precio": "400",
       "tipo": "Star Wars",
@@ -9,7 +9,7 @@
       "id": 1
     },
     {
-      "imagen": "../imagenes/muñeco-darth-vader.png",
+      "imagen": "imagenes/muñeco-darth-vader.png",
       "nombre": "Muñeco Darth Vader",
       "precio": "3500",
       "tipo": "Star Wars",
@@ -17,7 +17,7 @@
       "id": 2
     },
     {
-      "imagen": "../imagenes/camisa-atari.png",
+      "imagen": "imagenes/camisa-atari.png",
       "nombre": "Camiseta de Atari retro",
       "precio": "4000",
       "tipo": "Diversos",
@@ -25,7 +25,7 @@
       "id": "7871e984-2c5f-4bed-b8d4-3cec22a2fcff"
     },
     {
-      "imagen": "../imagenes/camisa-snes.png",
+      "imagen": "imagenes/camisa-snes.png",
       "nombre": "Camiseta de Snes retro",
       "precio": "4000",
       "tipo": "Diversos",
@@ -33,7 +33,7 @@
       "id": "d477ad20-3770-4b12-9c11-df3555ebef12"
     },
     {
-      "imagen": "../imagenes/cascos-realidad-virtual.png",
+      "imagen": "imagenes/cascos-realidad-virtual.png",
       "nombre": "Cascos de realidad virtual",
       "precio": "12000",
       "tipo": "Diversos",
@@ -41,7 +41,7 @@
       "id": "6c59833f-6077-4a95-b1ca-e40a4b89bf1f"
     },
     {
-      "imagen": "../imagenes/consola-nintendo.png",
+      "imagen": "imagenes/consola-nintendo.png",
       "nombre": "Consola Nintendo retro",
       "precio": "8000",
       "tipo": "Consolas",
@@ -49,7 +49,7 @@
       "id": "760d7091-0c14-4fc7-acd4-00618d60d661"
     },
     {
-      "imagen": "../imagenes/consola-xyz.png",
+      "imagen": "imagenes/consola-xyz.png",
       "nombre": "Consola XYZ box negra",
       "precio": "5000",
       "tipo": "Consolas",
@@ -57,7 +57,7 @@
       "id": "e8e33db4-25e9-4bb3-b4c8-2e1ed80950fa"
     },
     {
-      "imagen": "../imagenes/control-nintendo-switch.png",
+      "imagen": "imagenes/control-nintendo-switch.png",
       "nombre": "Control de Nintendo Switch",
       "precio": "9000",
       "tipo": "Consolas",
@@ -65,7 +65,7 @@
       "id": "f290e84e-b6b3-4bf2-b8ac-a76fed16f4b5"
     },
     {
-      "imagen": "../imagenes/control-xbox.png",
+      "imagen": "imagenes/control-xbox.png",
       "nombre": "Control de Xbox blanco",
       "precio": "9000",
       "tipo": "Consolas",
@@ -73,7 +73,7 @@
       "id": "d12b0d99-0e30-4028-b932-e6eaf572514b"
     },
     {
-      "imagen": "../imagenes/disfraz-pikachu.png",
+      "imagen": "imagenes/disfraz-pikachu.png",
       "nombre": "Disfraz de Pikachu",
       "precio": "150000",
       "tipo": "Diversos",
@@ -81,7 +81,7 @@
       "id": "ecb614d2-8706-467a-bc7c-609addd1f032"
     },
     {
-      "imagen": "../imagenes/game-boy-colors.png",
+      "imagen": "imagenes/game-boy-colors.png",
       "nombre": "Gameboy Colors retro",
       "precio": "5000",
       "tipo": "Consolas",
@@ -89,7 +89,7 @@
       "id": "9fa69a6b-04b3-44bd-8e26-48ba42fdb189"
     },
     {
-      "imagen": "../imagenes/muñeco-grogu.png",
+      "imagen": "imagenes/muñeco-grogu.png",
       "nombre": "Muñeco  de Grogu",
       "precio": "6500",
       "tipo": "Star Wars",
@@ -97,7 +97,7 @@
       "id": "8132594b-ade0-4137-8054-a00dbbf2eb97"
     },
     {
-      "imagen": "../imagenes/muñeco-sonic.png",
+      "imagen": "imagenes/muñeco-sonic.png",
       "nombre": "Muñeco de Sonic",
       "precio": "5000",
       "tipo": "Diversos",
@@ -105,7 +105,7 @@
       "id": "24354fe7-3738-46ca-aa42-204897895215"
     },
     {
-      "imagen": "../imagenes/muñeco-storm-trooper.png",
+      "imagen": "imagenes/muñeco-storm-trooper.png",
       "nombre": "Muñeco de Storm Trooper",
       "precio": "4500",
       "tipo": "Star Wars",
@@ -113,7 +113,7 @@
       "id": "ac4a387b-bf16-4572-8d3c-0411239dc1de"
     },
     {
-      "imagen": "../imagenes/muñeco-yoda.png",
+      "imagen": "imagenes/muñeco-yoda.png",
       "nombre": "Muñeco del maestro Yoda",
       "precio": "7000",
       "tipo": "Star Wars",
@@ -121,7 +121,7 @@
       "id": "01cc3a73-d130-4813-ab66-ed31307a27e5"
     },
     {
-      "imagen": "../imagenes/playstation-5.png",
+      "imagen": "imagenes/playstation-5.png",
       "nombre": "PlayStation 5 violeta y negro",
       "precio": "25000",
       "tipo": "Consolas",
@@ -129,7 +129,7 @@
       "id": "506ea42d-5070-4aaf-b886-4cef9b738071"
     },
     {
-      "imagen": "../imagenes/reloj-radio-retro.png",
+      "imagen": "imagenes/reloj-radio-retro.png",
       "nombre": "Reloj con radio retro",
       "precio": "6500",
       "tipo": "Diversos",
