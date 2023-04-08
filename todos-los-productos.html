@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Home</title>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/79ab2276fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/cabecera.css">
@@ -19,14 +19,9 @@
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton.css">
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton-icon.css">
     <link rel="stylesheet" href="../styles/cabecera/cabecera-login-boton.css">
-    <link rel="stylesheet" href="../styles/vista-producto.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-container.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-imagen.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-informacion.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-titulo.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-precio.css">
-    <link rel="stylesheet" href="../styles/vista-producto/vista-producto-descripcion.css">
-    <link rel="stylesheet" href="../styles/productos.css">
+    <link rel="stylesheet" href="../styles/todos.css">
+    <link rel="stylesheet" href="../styles/todos/todos-titulo.css">
+    <link rel="stylesheet" href="../styles/todos/todos-container.css">
     <link rel="stylesheet" href="../styles/productos/productos-titulo.css">
     <link rel="stylesheet" href="../styles/productos/productos-container.css">
     <link rel="stylesheet" href="../styles/productos/producto.css">
@@ -50,27 +45,25 @@
 </head>
 <body>
     <header class="cabecera">
-        <a href="index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
+        <a href="index.html"><img src="imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
         <div class="cabecera__container">
             <div class="busqueda__container">
                     <input type="search" name="barra-busqueda" id="barra-busqueda" placeholder="¿Qué deseas buscar?" class="barra-busqueda" data-busqueda>
                     <button type="submit" class="busqueda__boton" id="busqueda-boton"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon"></i></button>
             </div>
             <button type="submit" class="busqueda__boton__mobile"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon__mobile"></i></button>
-            <a href="./login.html" class="cabecera__login"><button class="cabecera__login__boton boton">Login</button></a>
+            <a href="login.html" class="cabecera__login"><button class="cabecera__login__boton boton">Login</button></a>
         </div>
     </header>
     <main>
-        <section class="vista-producto">
-        </section>
-        <section class="productos">
-            <h2 class="productos__titulo similares">Productos similares</h2>
-            <div class="productos__container"></div>
+        <section class="todos">
+            <h2 class="todos__titulo">Todos los productos</h2>
+            <div class="todos__container"></div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer-empresa">
-            <a href="../index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
+            <a href="index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
             <div class="footer-empresa__contacto">
                 <h3 class="contacto__titulo">Hable con nosotros</h3>
                 <form class="contacto__form">
@@ -89,8 +82,8 @@
             <p class="footer-desarrollador__año">2023</p>
         </div>
     </footer>
-    <script src="../JavaScript/barra-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/mostrar-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/ver-producto.js"></script>
+    <script src="JavaScript/barra-busqueda.js"></script>
+    <script type="module" src="JavaScript/controllers/mostrar-busqueda.js"></script>
+    <script type="module" src="JavaScript/controllers/mostrar-todos.js"></script>
 </body>
 </html>

@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="../styles/cabecera/busqueda-container.css">
     <link rel="stylesheet" href="../styles/cabecera/barra-busqueda.css">
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton.css">
-    <link rel="stylesheet" href="../styles/cabecera/busqueda-boton-icon.css"><link rel="stylesheet" href="../styles/formulario.css">
-    <link rel="stylesheet" href="../styles/formulario/formulario-titulo.css">
-    <link rel="stylesheet" href="../styles/formulario/form.css">
-    <link rel="stylesheet" href="../styles/formulario/formulario-label.css">
-    <link rel="stylesheet" href="../styles/formulario/formulario-input.css">
-    <link rel="stylesheet" href="../styles/formulario/formulario-boton.css">
+    <link rel="stylesheet" href="../styles/cabecera/busqueda-boton-icon.css">
+    <link rel="stylesheet" href="../styles/cabecera/cabecera-login-boton.css">
+    <link rel="stylesheet" href="../styles/error-login.css">
+    <link rel="stylesheet" href="../styles/error-login/error-login-container.css">
+    <link rel="stylesheet" href="../styles/error-login/error-login-titulo.css">
+    <link rel="stylesheet" href="../styles/error-login/error-login-subtitulo.css">
+    <link rel="stylesheet" href="../styles/error-login/error-login-descripcion.css">
     <link rel="stylesheet" href="../styles/resultado.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-titulo.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-container.css">
@@ -39,32 +40,27 @@
 </head>
 <body>
     <header class="cabecera">
-        <a href="../index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
+        <a href="index.html"><img src="imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
         <div class="cabecera__container">
             <div class="busqueda__container">
                     <input type="search" name="barra-busqueda" id="barra-busqueda" placeholder="¿Qué deseas buscar?" class="barra-busqueda" data-busqueda>
                     <button type="submit" class="busqueda__boton"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon"></i></button>
             </div>
             <button type="submit" class="busqueda__boton__mobile"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon__mobile"></i></button>
+            <a href="login.html" class="cabecera__login"><button class="cabecera__login__boton boton">Login</button></a>
         </div>
     </header>
     <main>
-        <section class="formulario">
-            <h2 class="formulario__titulo">Inicia sesión</h2>
-            <form class="form" data-login>
-                <label class="formulario__label">
-                    <input type="email" class="formulario__input" placeholder="Email" required data-email>
-                </label>
-                <label class="formulario__label">
-                    <input type="password" class="formulario__input" placeholder="Contraseña"required data-contraseña>
-                </label>
-                <button type="submit" class="formulario__boton">Entrar</button>
-            </form>
-        </section>
+        <section class="error-login">
+            <div class="error-login__container">
+                <h2><i class="fa-regular fa-circle-xmark error-login__titulo"></i></h2>
+                <h3 class="error-login__subtitulo">Ocurrió un error</h3>
+                <p class="error-login__descripcion">Comprueba que la contraseña que haz ingresado sea la correcta, o intentalo más tarde</p>
+            </div>
     </main>
     <footer class="footer">
         <div class="footer-empresa">
-            <a href="../index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
+            <a href="index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
             <div class="footer-empresa__contacto">
                 <h3 class="contacto__titulo">Hable con nosotros</h3>
                 <form class="contacto__form">
@@ -83,8 +79,7 @@
             <p class="footer-desarrollador__año">2023</p>
         </div>
     </footer>
-    <script src="../JavaScript/barra-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/mostrar-busqueda.js"></script>
-    <script src="../JavaScript/validacion.js"></script>
+    <script src="JavaScript/barra-busqueda.js"></script>
+    <script type="module" src="JavaScript/controllers/mostrar-busqueda.js"></script>
 </body>
 </html>

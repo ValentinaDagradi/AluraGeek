@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek - Home</title>
+    <title>AluraGeek - Crear Producto</title>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,15 @@
     <link rel="stylesheet" href="../styles/cabecera/barra-busqueda.css">
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton.css">
     <link rel="stylesheet" href="../styles/cabecera/busqueda-boton-icon.css">
-    <link rel="stylesheet" href="../styles/cabecera/cabecera-login-boton.css">
-    <link rel="stylesheet" href="../styles/todos.css">
-    <link rel="stylesheet" href="../styles/todos/todos-titulo.css">
-    <link rel="stylesheet" href="../styles/todos/todos-container.css">
-    <link rel="stylesheet" href="../styles/productos/productos-titulo.css">
-    <link rel="stylesheet" href="../styles/productos/productos-container.css">
-    <link rel="stylesheet" href="../styles/productos/producto.css">
-    <link rel="stylesheet" href="../styles/productos/producto-imagen.css">
-    <link rel="stylesheet" href="../styles/productos/producto-nombre.css">
-    <link rel="stylesheet" href="../styles/productos/producto-link.css">
-    <link rel="stylesheet" href="../styles/productos/producto-boton.css">
+    <link rel="stylesheet" href="../styles/cabecera/menu-administrador-boton.css">
+    <link rel="stylesheet" href="../styles/formulario.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-titulo.css">
+    <link rel="stylesheet" href="../styles/formulario/form.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-label.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-label-titulo.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-input.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-textarea.css">
+    <link rel="stylesheet" href="../styles/formulario/formulario-boton.css">
     <link rel="stylesheet" href="../styles/resultado.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-titulo.css">
     <link rel="stylesheet" href="../styles/resultado/resultado-container.css">
@@ -45,20 +43,66 @@
 </head>
 <body>
     <header class="cabecera">
-        <a href="../index.html"><img src="../imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
+        <a href="index.html"><img src="imagenes/Logo.png" alt="Logo de AluraGeek" class="cabecera__logo"></a>
         <div class="cabecera__container">
             <div class="busqueda__container">
                     <input type="search" name="barra-busqueda" id="barra-busqueda" placeholder="¿Qué deseas buscar?" class="barra-busqueda" data-busqueda>
-                    <button type="submit" class="busqueda__boton" id="busqueda-boton"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon"></i></button>
+                    <button type="submit" class="busqueda__boton"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon"></i></button>
             </div>
             <button type="submit" class="busqueda__boton__mobile"><i class="fa-solid fa-magnifying-glass busqueda__boton__icon__mobile"></i></button>
-            <a href="./login.html" class="cabecera__login"><button class="cabecera__login__boton boton">Login</button></a>
+            <a href="menu-administrador.html" class="cabecera__menu-administrador"><button class="cabecera__menu-administrador__boton boton">Menu Administrador</button></a>
         </div>
     </header>
     <main>
-        <section class="todos">
-            <h2 class="todos__titulo">Todos los productos</h2>
-            <div class="todos__container"></div>
+        <section class="formulario">
+            <h2 class="formulario__titulo">Añadir un producto</h2>
+            <form class="form" data-form>
+                <label class="formulario__label">
+                    <h3 class="formulario__label__titulo">Imagen</h3>
+                    <input
+                    name="imagen"
+                    id="imagen"
+                    type="text"
+                    placeholder="URL de la imagen"
+                    class="formulario__input"
+                    required
+                    data-imagen/>
+                </label>
+                <label class="formulario__label">
+                    <input
+                    name="nombre"
+                    id="nombre"
+                    type="text"
+                    placeholder="Nombre"
+                    class="formulario__input"
+                    required
+                    maxlength="40"
+                    data-nombre/>
+                </label>
+                <label class="formulario__label">
+                    <input
+                    name="precio"
+                    id="precio"
+                    type="number"
+                    placeholder="Precio"
+                    class="formulario__input"
+                    required
+                    data-precio/>
+                </label>
+                <label class="formulario__label">
+                    <select name="tipo" id="tipo" class="formulario__input" data-tipo>
+                        <option value="">Tipo de producto</option>
+                        <option value="Star Wars">Star Wars</option>
+                        <option value="Consolas">Consolas</option>
+                        <option value="Diversos">Diversos</option>
+                    </select>
+                </label>
+                <label class="formulario__label">
+                    <h3 class="formulario__label__titulo">Descripción</h3>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" class="formulario__textarea" required maxlength="150" data-descripcion></textarea>
+                </label>
+                <button type="submit" class="formulario__boton">Añadir</button>
+            </form>
         </section>
     </main>
     <footer class="footer">
@@ -82,8 +126,9 @@
             <p class="footer-desarrollador__año">2023</p>
         </div>
     </footer>
-    <script src="../JavaScript/barra-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/mostrar-busqueda.js"></script>
-    <script type="module" src="../JavaScript/controllers/mostrar-todos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JavaScript/barra-busqueda.js"></script>
+    <script type="module" src="JavaScript/controllers/mostrar-busqueda.js"></script>
+    <script type="module" src="JavaScript/controllers/crear-producto.js"></script>
 </body>
 </html>
