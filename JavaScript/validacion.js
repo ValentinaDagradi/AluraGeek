@@ -5,8 +5,8 @@ form.addEventListener("submit", (evento) => {
     const contraseña = document.querySelector("[data-contraseña]").value;
     console.log(contraseña)
     if(contraseña == 12345){
-        window.location.href = "../../screens/menu-administrador.html"
+        window.location.href = "../../menu-administrador.html"
     } else {
-        window.location.href = "../../screens/error-login.html"
+        window.location.href = "../../error-login.html"
     }
 })
